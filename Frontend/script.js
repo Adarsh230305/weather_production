@@ -17,7 +17,7 @@ async function getweather() {
   // Use 5-day forecast API (not current weather)
 
   try {
-    const response = await fetch(`http://localhost:3000/api/weather?city=${city}`);
+    const response = await fetch(`https://weather-production.onrender.com/api/weather?city=${city}`);
     if (!response.ok) throw new Error("City not found"); //The Response object has a property .ok which is true if the HTTP status code is 200–299 (successful response).
     const data = await response.json();
 
