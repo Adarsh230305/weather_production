@@ -1,0 +1,66 @@
+# Weather Forecast App
+
+A modern weather forecast web application built using HTML, CSS, JavaScript, Node.js, and Express.
+
+The app fetches real-time weather and 5-day forecast data using the OpenWeather API and dynamically changes background videos based on weather conditions.
+---
+## Features
+
+- Real-time weather information
+- 5-day weather forecast chart
+- Dynamic weather-based background videos
+- Secure API key handling using backend `.env`
+- Responsive UI
+- Weather condition videos hosted on Cloudinary
+- Chart visualization using Chart.js
+---
+## Tech Stack
+### Frontend
+- HTML
+- CSS
+- JavaScript
+- Chart.js
+
+### Backend
+- Node.js
+- Express.js
+- dotenv
+- cors
+### APIs & Services
+- OpenWeather API
+- Cloudinary CDN
+---
+## Project Structure
+weather-app/
+├── frontend/
+
+│ ├── index.html
+
+│ ├── style.css
+
+│ ├── script.js
+
+│
+
+├── backend/
+
+│ ├── server.js
+
+│ ├── package.json
+
+│ ├── .env
+
+│
+
+├── .gitignore
+
+├── README.md
+
+---
+
+## Installation
+
+### 1. Clone Repository
+
+```bash
+git clone https://github.com/YOUR_USERNAME/weather-app.git
